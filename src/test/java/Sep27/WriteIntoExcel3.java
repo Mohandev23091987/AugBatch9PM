@@ -23,19 +23,10 @@ public class WriteIntoExcel3 {
         cell.setCellValue("Mohan");
 
         //sheet.createRow(0).createCell(0).setCellValue("Mohan");
-
         FileOutputStream fos = new FileOutputStream("C:\\Users\\Mohan Dev\\OneDrive\\Desktop\\TestData\\TestData3.xlsx");
         wb.write(fos);
         fos.close();
         wb.close();
-
-
-
-
-
-
-
-
 
     }
 
