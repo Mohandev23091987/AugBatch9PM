@@ -1,6 +1,6 @@
 package Oct6;
 
-public class SIngleTonProgram {
+public class Program {
 
     public static void main(String[] args) {
 

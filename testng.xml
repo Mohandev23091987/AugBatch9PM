@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel ="tests" thread-count="3" verbose="0">
+
+    <test name="Test1">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="Oct7.TestNGTestScript" />
+        </classes>
+    </test>
+
+
+    <test name="Test2">
+        <parameter name="browser" value="edge" />
+        <classes>
+            <class name="Oct7.TestNGTestScript" />
+        </classes>
+    </test>
+
+
+    <test name="Test3">
+        <parameter name="browser" value="firefox" />
+        <classes>
+            <class name="Oct7.TestNGTestScript" />
+        </classes>
+    </test>
+
+    <test name="Test4">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="Oct7.TestNGTestScript" />
+        </classes>
+    </test>
+
+
+    <test name="Test5">
+        <parameter name="browser" value="edge" />
+        <classes>
+            <class name="Oct7.TestNGTestScript" />
+        </classes>
+    </test>
+
+
+    <test name="Test6">
+        <parameter name="browser" value="firefox" />
+        <classes>
+            <class name="Oct7.TestNGTestScript" />
+        </classes>
+    </test>
+
+
+
+</suite>
