@@ -12,9 +12,9 @@ public class Animal {
     }
 
 
-    void sum(int a, int b){
-        System.out.println("sum of numbers"+(a+b));
-    }
+//    //void sum(int a, int b){
+//        System.out.println("sum of numbers"+(a+b));
+//    }
 
 
 
