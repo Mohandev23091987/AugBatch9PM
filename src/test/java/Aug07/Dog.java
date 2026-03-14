@@ -21,6 +21,14 @@ void sum(int a, int b){
 
 }
 
+    void sum2(int a, int b){
+
+    System.out.println("Now I am adding two numbers");
+    System.out.println("these values are salary and increment");
+    super.sum(a,b);
+
+}
+
 
 
 
