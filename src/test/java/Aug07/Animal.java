@@ -22,6 +22,9 @@ public class Animal {
 
     /// //////////////////////////////////////////////
 
+    void eat5(){
+        System.out.println("animal eats");
+    }
     void eat2(){
         System.out.println("animal eats");
     }
